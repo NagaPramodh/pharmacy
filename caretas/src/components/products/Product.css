@@ -1,0 +1,43 @@
+.all-products {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; /*Changed from 'scroll' to 'auto' for better handling*/
+}
+.all-products::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+.product-card {
+  width: 18rem;
+  height: 35rem;
+  margin-top: 1rem;
+  margin-right: 1rem; /* Space between cards */
+  border: 1px solid black;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: none;
+    opacity: 0.9;
+  }
+}
+
+.product-content {
+  white-space: pre-wrap;
+}
+
+/* Ensure the Link does not affect its children */
+.product-card a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+/* Optionally, you can specifically style the card-body if needed */
+.card-body {
+  color: black; /* Adjust to desired text color */
+}
+
+.card-title,
+.card-text {
+  color: inherit; /* Ensure text color is inherited from the parent */
+}
