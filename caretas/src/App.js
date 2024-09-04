@@ -10,21 +10,21 @@ function App() {
   return (
     <div>
       <Router>
+        <NavbarComponent />
         {/* <ProductsPage /> */}
         <Routes>
           <Route
             path="/"
             element={
               <div>
-                <NavbarComponent />
                 <CarouselComponent />
                 <ProductsPage />
-                <FooterComponent />
               </div>
             }
           />
           <Route path="/product/:id" element={<ProductDetailPage />} />
         </Routes>
+        <FooterComponent />
       </Router>
     </div>
   );
