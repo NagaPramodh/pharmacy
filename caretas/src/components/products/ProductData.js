@@ -7,6 +7,12 @@ export const ProductList = [
       "MC Plus 100mg/325mg Tablet is a pain-relieving medicine. It is used to reduce pain and inflammation in conditions like rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis. It may also be used to relieve muscle pain, back pain, toothache, or pain in the ear and throat.",
     content:
       "MC Plus 100mg/325mg Tablet should be taken with or without food. You should take it regularly as advised by your doctor. Your doctor may change the dose and time between doses according to your pain level and your needs. Do not take more or use it for a longer duration than recommended by your doctor.",
+    benefits:
+      "MC Plus 100mg/325mg Tablet is used for short-term relief of pain, inflammation, and swelling in conditions that affect joints and muscles. Some of the conditions in which MC Plus 100mg/325mg Tablet is used are rheumatoid arthritis, osteoarthritis, muscle pain, back pain, toothache, or pain in the ear and throat. Take it as it is prescribed to get the most benefit. Do not take more or longer than needed as that can be dangerous. In general, you should take the lowest dose that works, for the shortest possible time. This will help you to go about your daily activities more easily and have a better, more active, quality of life.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Vaginal inflammation\nMucocutaneous candidiasis\nVomiting\nNausea\nDiarrhea\nSkin rash\nRed spots or bumps\nFungal infection",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 2,
