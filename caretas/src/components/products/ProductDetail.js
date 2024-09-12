@@ -12,7 +12,7 @@ const OtherProductCard = ({ id, title, descirption, img }) => {
           <img
             className="card-img-top"
             src={img}
-            alt="Card image cap"
+            alt={title}
             height={250}
             width={48}
           />
@@ -36,10 +36,10 @@ const ProductDetailPage = () => {
         const nextEndIndex = (prevVisibleProducts[1] + 2) % ProductList.length;
         return [nextStartIndex, nextEndIndex];
       });
-    }, 3000); // change products every 3 seconds
+    }, 5000); // change products every 5 seconds
 
     return () => clearInterval(interval); // cleanup interval on component unmount
-  }, [ProductList.length]);
+  }, []);
 
   const { id } = useParams(); // Get the product id from the URL
   const product = ProductList.find((p) => p.id === parseInt(id)); // Find the product by id
@@ -49,7 +49,7 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "row" }}>
+    <div className="whole-product-detail-page">
       <div className="product-detail-page">
         <div className="product-detail-image-and-content">
           <div className="product-detail-image">

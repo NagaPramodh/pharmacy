@@ -43,6 +43,13 @@
   color: inherit; /* Ensure text color is inherited from the parent */
 }
 
+.whole-product-detail-page {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
 .product-detail-page {
   display: flex;
   flex-direction: column;
@@ -50,11 +57,12 @@
 .product-detail-image-and-content {
   display: flex;
   flex-direction: row;
-  width: 75vw;
+  /* width: 75vw; */
 }
 
 .product-detail-image {
-  margin: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .product-detail-right {
@@ -62,8 +70,9 @@
 }
 
 .product-more-detail {
-  padding-left: 2vw;
-  width: 70vw;
+  /* padding-left: 2vw; */
+  /* width: 70vw; */
+  padding-right: 2vw;
 }
 .other-product-cards {
   display: flex;
@@ -74,7 +83,7 @@
   width: 18rem;
   /* height: 15rem; */
   margin-top: 1rem;
-  margin-right: 1rem; /* Space between cards */
+  /* margin-right: 1rem; Space between cards */
   /* border: 1px solid black; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
