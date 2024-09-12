@@ -1,7 +1,15 @@
+import Pic1 from "../../images/pic_1.jpg";
+import Pic2 from "../../images/pic_2.jpg";
+import Pic3 from "../../images/pic_3.jpg";
+import Pic4 from "../../images/pic_4.jpg";
+import Pic5 from "../../images/pic_5.jpg";
+import Pic6 from "../../images/pic_6.jpg";
+import Pic7 from "../../images/pic_7.jpg";
+
 export const ProductList = [
   {
     id: 1,
-    img: "https://www.aristo-pharma.de/sites/aristo-pharma-main/files/styles/tile_slider_product/public/2022-02/IbuAristo_400mg_10_FT.png?itok=GZ_Jqo9V",
+    img: Pic1,
     title: "MC Plus 100mg/325mg",
     descirption:
       "MC Plus 100mg/325mg Tablet is a pain-relieving medicine. It is used to reduce pain and inflammation in conditions like rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis. It may also be used to relieve muscle pain, back pain, toothache, or pain in the ear and throat.",
@@ -16,7 +24,7 @@ export const ProductList = [
   },
   {
     id: 2,
-    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/67982af8f8c2460faa7666d8707fea4e.jpg",
+    img: Pic2,
     title: "Swisse",
     descirption:
       "Swisse Beauty Vegan Collagen Builder | With Biotin & Vitamin C for Skin & Antioxidant Benefits | Tablet",
@@ -25,7 +33,7 @@ export const ProductList = [
   },
   {
     id: 3,
-    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/0d69962716ef4fd0a70b3a735e74cf42.jpg",
+    img: Pic3,
     title: "Daily Women's Protein",
     descirption: "She Need Plant Based Daily Women’s Protein Powder Chocolate",
     content:
@@ -33,7 +41,7 @@ export const ProductList = [
   },
   {
     id: 4,
-    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/62ed8bc969444082999e898677ef86ed.jpg",
+    img: Pic4,
     title: "Omnigel Pain Relief",
     descirption:
       "Omnigel Pain Relief from Sprain, Injury, Back Pain, Muscle Pain, Body Pain, Knee Pain, Joint Pain",
@@ -42,7 +50,7 @@ export const ProductList = [
   },
   {
     id: 5,
-    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/27448045b48c4ead96ec56a7f81b8ea9.jpg",
+    img: Pic5,
     title: "Combo Pack",
     descirption:
       "Combo Pack of Tata 1mg Pain Relief Spray (100gm) & Tata 1mg Medicated First Aid Dressing - Washproof, Bandages (20)",
@@ -51,7 +59,15 @@ export const ProductList = [
   },
   {
     id: 6,
-    img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/shfpkggram7uvubuxqkg.jpg",
+    img: Pic6,
+    title: "Easylax L",
+    descirption: "Easylax L Oral Solution Lemon Sugar Free",
+    content:
+      "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",
+  },
+  {
+    id: 7,
+    img: Pic7,
     title: "Easylax L",
     descirption: "Easylax L Oral Solution Lemon Sugar Free",
     content:

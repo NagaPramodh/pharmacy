@@ -49,7 +49,7 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <div style={{display:"flex",flexDirection:"row"}}>
+    <div style={{ display: "flex", flexDirection: "row" }}>
       <div className="product-detail-page">
         <div className="product-detail-image-and-content">
           <div className="product-detail-image">

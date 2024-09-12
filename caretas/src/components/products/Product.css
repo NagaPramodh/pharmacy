@@ -43,38 +43,40 @@
   color: inherit; /* Ensure text color is inherited from the parent */
 }
 
-.product-detail-page{
+.product-detail-page {
   display: flex;
   flex-direction: column;
 }
-.product-detail-image-and-content{
+.product-detail-image-and-content {
   display: flex;
   flex-direction: row;
   width: 75vw;
 }
 
-.product-detail-image{
-
+.product-detail-image {
+  margin: 2vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.product-detail-right{
-
+.product-detail-right {
+  margin: 2vw;
 }
 
-.product-more-detail{
+.product-more-detail {
   padding-left: 2vw;
   width: 70vw;
 }
-.other-product-cards{
-display: flex;
-flex-direction: column;
+.other-product-cards {
+  display: flex;
+  flex-direction: column;
 }
 
-.other-product-card{
+.other-product-card {
   width: 18rem;
   /* height: 15rem; */
   margin-top: 1rem;
   margin-right: 1rem; /* Space between cards */
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   &:hover {
     transform: translateY(-5px);
@@ -82,5 +84,3 @@ flex-direction: column;
     opacity: 0.9;
   }
 }
-
-
