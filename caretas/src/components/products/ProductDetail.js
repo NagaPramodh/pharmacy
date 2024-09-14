@@ -3,6 +3,7 @@ import { ProductList } from "./ProductData"; // Adjust path if necessary
 import "./Product.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import React from "react";
 
 const OtherProductCard = ({ id, title, descirption, img }) => {
   return (
@@ -48,6 +49,39 @@ const ProductDetailPage = () => {
     return <div>Product not found</div>; // Handle the case where the product does not exist
   }
 
+  const FormatTexttoBullet = (text) => {
+    // Split the text by \n and map over each section
+    return text.split("\n").map((line, index) => (
+      <React.Fragment key={index}>
+        {line.trim() && (
+          <div>
+            <div className="bullet-lines">
+              {index > 0 && "* "}
+              {line}
+            </div>
+            <br />
+          </div>
+        )}
+      </React.Fragment>
+    ));
+  };
+  const FormatTexttoParagragh = (text) => {
+    // Split the text by \n and map over each section
+    return text.split("\n").map((line, index) => (
+      <React.Fragment key={index}>
+        {line.trim() && (
+          <div>
+            <div className="bullet-lines">
+              {/* {index > 0 && "* "} */}
+              {line}
+            </div>
+            <br />
+          </div>
+        )}
+      </React.Fragment>
+    ));
+  };
+
   return (
     <div className="whole-product-detail-page">
       <div className="product-detail-page">
@@ -63,7 +97,7 @@ const ProductDetailPage = () => {
           <div className="product-detail-right">
             <h1>{product.title}</h1>
             <h3>Product Information</h3>
-            <p className="product-content">{product.content}</p>
+            <p className="product-content">{FormatTexttoParagragh(product.content)}</p>
           </div>
         </div>
         <div className="product-more-detail">
@@ -72,7 +106,9 @@ const ProductDetailPage = () => {
         </div>
         <div className="product-more-detail">
           <h3>Side Effects of {product.title}</h3>
-          <p className="product-content">{product.sideEffects}</p>
+          <p className="product-content">
+            {FormatTexttoBullet(product.sideEffects)}
+          </p>
         </div>
       </div>
       <div className="other-product-cards">
