@@ -2,8 +2,16 @@
   margin: 5rem;
   display: flex;
   flex-direction: row;
-  overflow-x: auto; /*Changed from 'scroll' to 'auto' for better handling*/
+  overflow: hidden;
+  /* overflow-x: auto;  */
+  transition: transform 0.2s ease-in-out;
 }
+
+.all-products:hover {
+  transition: none; /* Disable transition on hover */
+}
+
+
 .all-products::-webkit-scrollbar {
   display: none; /* Hides the scrollbar */
 }
