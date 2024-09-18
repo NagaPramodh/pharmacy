@@ -1,7 +1,7 @@
 import { ProductList } from "./ProductData";
 import "./Product.css";
 import { Link } from "react-router-dom";
-import { useEffect, useRef ,useState} from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Product = ({ id, title, descirption, img }) => {
   return (
@@ -46,13 +46,13 @@ const ProductsPage = () => {
     <div className="all-products" ref={containerRef}>
       {products.map((product, index) => (
         <div className="product" key={product.id}>
-        <Product
-          key={product.id}
-          id={product.id}
-          img={product.img}
-          title={product.title}
-          descirption={product.descirption}
-        />
+          <Product
+            key={product.id}
+            id={product.id}
+            img={product.img}
+            title={product.title}
+            descirption={product.descirption}
+          />
         </div>
       ))}
     </div>

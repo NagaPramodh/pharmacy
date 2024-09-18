@@ -30,6 +30,12 @@ export const ProductList = [
       "Swisse Beauty Vegan Collagen Builder | With Biotin & Vitamin C for Skin & Antioxidant Benefits | Tablet",
     content:
       "Promotes formation of natural collagen which vitally improves skin health and reduce wrinkles. Provides antioxidant support and reduce free radicals formed in the body",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 3,
@@ -38,6 +44,12 @@ export const ProductList = [
     descirption: "She Need Plant Based Daily Women’s Protein Powder Chocolate",
     content:
       "Improves metabolism and hormonal balance with Ayurveda herbs.\nGives your body the protein it needs from a high-quality source.\nFuels up your energy levels with high-quality protein, vitamin B, and ginseng",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 4,
@@ -47,6 +59,12 @@ export const ProductList = [
       "Omnigel Pain Relief from Sprain, Injury, Back Pain, Muscle Pain, Body Pain, Knee Pain, Joint Pain",
     content:
       "Provides relief from pain.\nReduces swelling and inflammation.\nHas anti-inflammatory properties",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 5,
@@ -56,6 +74,12 @@ export const ProductList = [
       "Combo Pack of Tata 1mg Pain Relief Spray (100gm) & Tata 1mg Medicated First Aid Dressing - Washproof, Bandages (20)",
     content:
       "Size: 70mm X 19mm\nAdvanced protection for cuts and scrapes\nAntiseptic protection\nLong-lasting hold\nTransparent in colour to match your skin \nEach wash-proof medicated pad contains benzalkonium chloride solution I.P. equivalent to benzalkonium chloride 0.5% w/w",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 6,
@@ -64,6 +88,12 @@ export const ProductList = [
     descirption: "Easylax L Oral Solution Lemon Sugar Free",
     content:
       "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 7,
@@ -72,5 +102,11 @@ export const ProductList = [
     descirption: "Easylax L Oral Solution Lemon Sugar Free",
     content:
       "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",
+    benefits:
+      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+    howToUse:
+      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
 ];

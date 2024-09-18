@@ -88,16 +88,26 @@ const ProductDetailPage = () => {
         <div className="product-detail-image-and-content">
           <div className="product-detail-image">
             <img
+              className="product-detail-inside-image"
               src={product.img}
               alt={product.title}
               height={250}
               width={250}
             />
+            <button
+              type="button"
+              class="btn btn-primary"
+              style={{ marginTop: "1vh" }}
+            >
+              Price <span class="badge">₹4000</span>
+            </button>
           </div>
           <div className="product-detail-right">
             <h1>{product.title}</h1>
             <h3>Product Information</h3>
-            <p className="product-content">{FormatTexttoParagragh(product.content)}</p>
+            <p className="product-content">
+              {FormatTexttoParagragh(product.content)}
+            </p>
           </div>
         </div>
         <div className="product-more-detail">
@@ -113,13 +123,15 @@ const ProductDetailPage = () => {
       </div>
       <div className="other-product-cards">
         {visibleProducts.map((index) => (
-          <OtherProductCard
-            key={ProductList[index].id}
-            id={ProductList[index].id}
-            img={ProductList[index].img}
-            title={ProductList[index].title}
-            descirption={ProductList[index].descirption}
-          />
+          <Link to={`/product/${ProductList[index].id}`}>
+            <OtherProductCard
+              key={ProductList[index].id}
+              id={ProductList[index].id}
+              img={ProductList[index].img}
+              title={ProductList[index].title}
+              descirption={ProductList[index].descirption}
+            />
+          </Link>
         ))}
       </div>
     </div>
