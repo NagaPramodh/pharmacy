@@ -1,10 +1,17 @@
 .all-products {
   margin: 5rem;
+  padding-left: 10rem;
+  /* margin-top: 0rem; */
   display: flex;
   flex-direction: row;
   overflow: scroll;
+  /* background-color: "yellow"; */
   /* overflow-x: auto;  */
   transition: transform 0.2s ease-in-out;
+  @media only screen and (max-width: 480px) {
+    margin: 2rem;
+    padding-left: 0rem;
+  }
 }
 
 .all-products:hover {
@@ -17,19 +24,27 @@
 
 .product-card {
   width: 18rem;
-  height: 35rem;
+  /* height: 35rem; */
   margin-top: 1rem;
   margin-right: 1rem; /* Space between cards */
   /* border: 1px solid black; */
+  background-color: #ffffc5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   &:hover {
+    background-color: grey;
     transform: translateY(-5px);
     box-shadow: none;
     opacity: 0.9;
   }
 }
 
+.all-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .product-content {
   white-space: pre-wrap;
 }
@@ -40,14 +55,30 @@
   color: inherit; /* Inherit the color from the parent element */
 }
 
+.product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.other-card-body {
+  color: black; /* Adjust to desired text color */
+}
 /* Optionally, you can specifically style the card-body if needed */
 .card-body {
   color: black; /* Adjust to desired text color */
+  height: 18rem;
+  background-color: #f0e2bd;
+  &:hover {
+    background-color: grey;
+  }
 }
 
 .card-title,
 .card-text {
-  color: inherit; /* Ensure text color is inherited from the parent */
+  color: black; /* Ensure text color is inherited from the parent */
 }
 
 .whole-product-detail-page {
@@ -116,4 +147,10 @@
   /* align-items: center; */
   /* background-color: blue; */
   /* justify-content: center; */
+}
+
+.whole-navbar {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: black;
 }

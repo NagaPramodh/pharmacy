@@ -38,23 +38,28 @@ const ProductsPage = () => {
         updatedProducts.push(firstProduct); // Add it to the end
         return updatedProducts;
       });
-    }, 3000); // Change every 3 seconds
+    }, 100000); // Change every 3 seconds
 
     return () => clearInterval(interval); // Cleanup on component unmount
   }, []);
   return (
-    <div className="all-products" ref={containerRef}>
-      {products.map((product, index) => (
-        <div className="product" key={product.id}>
-          <Product
-            key={product.id}
-            id={product.id}
-            img={product.img}
-            title={product.title}
-            descirption={product.descirption}
-          />
-        </div>
-      ))}
+    <div>
+      <div className="product-header">
+        <h1>Our Products</h1>
+      </div>
+      <div className="all-products" ref={containerRef}>
+        {products.map((product, index) => (
+          <div className="product" key={product.id}>
+            <Product
+              key={product.id}
+              id={product.id}
+              img={product.img}
+              title={product.title}
+              descirption={product.descirption}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

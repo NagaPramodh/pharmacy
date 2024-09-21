@@ -17,7 +17,7 @@ const OtherProductCard = ({ id, title, descirption, img }) => {
             height={250}
             width={48}
           />
-          <div className="card-body">
+          <div className="other-card-body">
             <h5 className="card-title">{title}</h5>
             {/* <p className="card-text">{descirption}</p> */}
           </div>

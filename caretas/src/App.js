@@ -8,9 +8,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#faf5e8" }}>
       <Router>
-        <NavbarComponent />
+        <div className="whole-navbar bg-dark">
+          <NavbarComponent />
+        </div>
         {/* <ProductsPage /> */}
         <Routes>
           <Route
