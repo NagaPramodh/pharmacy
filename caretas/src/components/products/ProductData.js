@@ -10,7 +10,7 @@ export const ProductList = [
   {
     id: 1,
     img: Pic1,
-    title: "MC Plus 100mg/325mg",
+    title: "Pot-CV",
     descirption:
       "I Pot CV Dry Syrup is a potent antibiotic made up of two active medicines. It is given to children to treat a wide range of severe bacterial infections targeting the ear, throat, lungs, skin, and urinary tract. It works by inhibiting the growth of bacteria thereby preventing the infection spread.",
     content:
@@ -25,11 +25,11 @@ export const ProductList = [
   {
     id: 2,
     img: Pic2,
-    title: "Swisse",
+    title: "Amikacin Sulphate Injection",
     descirption:
       "Swisse Beauty Vegan Collagen Builder | With Biotin & Vitamin C for Skin & Antioxidant Benefits | Tablet",
     content:
-      "Promotes formation of natural collagen which vitally improves skin health and reduce wrinkles. Provides antioxidant support and reduce free radicals formed in the body",
+      "Amikacin injection is used to treat certain serious infections that are caused by bacteria such as meningitis (infection of the membranes that surround the brain and spinal cord) and infections of the blood, abdomen (stomach area), lungs, skin, bones, joints, and urinary tract. Amikacin injection is in a class of medications called aminoglycoside antibiotics. It works by killing bacteria.\nAntibiotics such as amikacin injection will not work for colds, flu, or other viral infections. Taking antibiotics when they are not needed increases your risk of getting an infection later that resists antibiotic treatment.",
     benefits:
       "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
     sideEffects:
