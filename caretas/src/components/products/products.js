@@ -38,7 +38,7 @@ const ProductsPage = () => {
         updatedProducts.push(firstProduct); // Add it to the end
         return updatedProducts;
       });
-    }, 100000); // Change every 3 seconds
+    }, 3000); // Change every 3 seconds
 
     return () => clearInterval(interval); // Cleanup on component unmount
   }, []);

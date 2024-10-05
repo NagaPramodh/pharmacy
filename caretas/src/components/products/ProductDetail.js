@@ -37,7 +37,7 @@ const ProductDetailPage = () => {
         const nextEndIndex = (prevVisibleProducts[1] + 2) % ProductList.length;
         return [nextStartIndex, nextEndIndex];
       });
-    }, 5000); // change products every 5 seconds
+    }, 3000); // change products every 5 seconds
 
     return () => clearInterval(interval); // cleanup interval on component unmount
   }, []);
