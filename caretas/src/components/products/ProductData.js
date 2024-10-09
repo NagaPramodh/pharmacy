@@ -98,7 +98,7 @@ export const ProductList = [
   {
     id: 7,
     img: Pic7,
-    title: "Easylax L",
+    title: "Easylax LA",
     descirption: "Easylax L Oral Solution Lemon Sugar Free",
     content:
       "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",

@@ -65,6 +65,11 @@ section .section-title {
   font-weight: 700;
 }
 
+.suggestion-container {
+  z-index: 1000;
+  margin-top: 2rem;
+}
+
 @media (max-width: 767px) {
   #footer h5 {
     padding-left: 0;

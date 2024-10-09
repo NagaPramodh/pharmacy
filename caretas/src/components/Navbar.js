@@ -1,78 +1,103 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import "./products/Product.css";
+import React, { useState } from "react";
+import { ProductList } from "../components/products/ProductData";
+import "./Footer.css";
+import { Link } from "react-router-dom";
 
-function NavbarComponent() {
+const NavbarComponent = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredProducts, setFilteredProducts] = useState([]);
+
+  // Handle input change and filter products
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+
+    if (value) {
+      const filtered = ProductList.filter((product) =>
+        product.title.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilteredProducts(filtered);
+    } else {
+      setFilteredProducts([]); // Clear suggestions when input is empty
+    }
+  };
+
   return (
-    <>
-      {/* <Navbar bg="dark" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#caretas">Caretas</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#aboutUS" style={{ color: "white" }}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a className="navbar-brand" href="#aboutUS">
+          Caretas
+        </a>
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
               About Us
-            </Nav.Link>
-            <Nav.Link href="#Presence" style={{ color: "white" }}>
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="#Presence">
               Our Presence
-            </Nav.Link>
-            <Nav.Link href="#offerings" style={{ color: "white" }}>
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link disabled" href="#offerings">
               Our Offerings
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar> */}
+            </a>
+          </li>
+        </ul>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        {/* <div className="whole-navbar"> */}
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#aboutUS">
-            Caretas
-          </a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                About Us <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#Presence">
-                Our Presence
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link disabled" href="#offerings">
-                Our Offerings
-              </a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
+        {/* Search Input */}
+        <form className="form-inline my-2 my-lg-0">
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <input
-              class="form-control mr-sm-2"
+              className="form-control mr-sm-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
+              value={searchTerm}
+              onChange={handleSearchChange}
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-        {/* </div> */}
-      </nav>
-    </>
+            {filteredProducts.length > 0 && (
+              <ul className="list-group position-absolute suggestion-container">
+                {filteredProducts.map((product) => (
+                  <Link
+                    to={`/product/${product.id}`}
+                    onClick={() => {
+                      setFilteredProducts([]);
+                      setSearchTerm("");
+                    }}
+                  >
+                    <li key={product.id} className="list-group-item">
+                      {product.title}
+                    </li>
+                  </Link>
+                ))}
+              </ul>
+            )}
+          </div>
+          <button
+            className="btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+
+        {/* Suggestion Dropdown */}
+      </div>
+    </nav>
   );
-}
+};
 
 export default NavbarComponent;
