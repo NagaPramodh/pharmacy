@@ -27,86 +27,89 @@ export const ProductList = [
     img: Pic2,
     title: "Amikacin Sulphate Injection",
     descirption:
-      "Swisse Beauty Vegan Collagen Builder | With Biotin & Vitamin C for Skin & Antioxidant Benefits | Tablet",
+      "Amikacin is an antibiotic. It stops bacterial growth by preventing synthesis of essential proteins required by bacteria to carry out vital functions.",
     content:
-      "Amikacin injection is used to treat certain serious infections that are caused by bacteria such as meningitis (infection of the membranes that surround the brain and spinal cord) and infections of the blood, abdomen (stomach area), lungs, skin, bones, joints, and urinary tract. Amikacin injection is in a class of medications called aminoglycoside antibiotics. It works by killing bacteria.\nAntibiotics such as amikacin injection will not work for colds, flu, or other viral infections. Taking antibiotics when they are not needed increases your risk of getting an infection later that resists antibiotic treatment.",
+      "Amikacin is an antibiotic. It stops bacterial growth by preventing synthesis of essential proteins required by bacteria to carry out vital functions.\nThe usual course of treatment with Amikacin is about 7 to 10 days. However, your doctor will decide your dose depending on the condition you are being treated for. Continue taking Amikacin in the dose and duration prescribed by the doctor to get maximum benefit. Do not alter the dose of the medicine on your own, consult your doctor first.\nAmikacin is safe if used in the dose and duration advised by your doctor. Take it exactly as directed and do not skip any dose. Follow your doctor's instructions carefully and let your doctor know if any of the side effects bother you.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      "Amikacin Sulphate 500mg Injection is the injection form of an antibiotic medicine that stops the growth of the infection-causing bacteria in your body. It is often injected by a doctor or a nurse either into a vein or a muscle. This medicine is used to treat many different types of infections such as urinary tract, bones and joints, lungs (eg. pneumonia), brain, blood, and some others. This medicine usually makes you feel better within a few days. Follow your doctor's instructions carefully to get maximum benefit.",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Increased blood urea\n Injection site reactions (pain, swelling, redness)",
     howToUse:
-      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
+      "Your doctor or nurse will give you this medicine. Kindly do not self administer.",
   },
   {
     id: 3,
     img: Pic3,
-    title: "Daily Women's Protein",
-    descirption: "She Need Plant Based Daily Women’s Protein Powder Chocolate",
+    title: "Fetas Syrup",
+    descirption:
+      "Tata 1mg Iron & Folic Acid Syrup aids in meeting the body's iron and vitamin B9 needs. It supports red blood cell and platelet production, ensuring an adequate oxygen supply.",
     content:
-      "Improves metabolism and hormonal balance with Ayurveda herbs.\nGives your body the protein it needs from a high-quality source.\nFuels up your energy levels with high-quality protein, vitamin B, and ginseng",
+      "Tata 1mg Iron & Folic Acid Syrup aids in meeting the body's iron and vitamin B9 needs. It supports red blood cell and platelet production, ensuring an adequate oxygen supply. This Iron and Folic acid tablet comprises ferrous ascorbate, facilitating the swift absorption of folic acid. It plays a vital role in maintaining various bodily functions, supporting healthy red blood cell production, and may help manage anaemia in both children and adults. It supports women's health and can also used as prenatal vitamins to maintain maternal health.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      "Supports red blood cell production and oxygen transport, and may help in anaemia prevention\n It may help prevent folic acid deficiency and is essential for DNA synthesis, haemoglobin synthesis foetal development, iron metabolism and red blood cell formation, potentially preventing folate deficiency anaemia and certain birth defects\nIt supports red blood cell production. Ferrous ascorbate supports oxygen transport in the body. It may help manage the risk of iron deficiency anaemia and promote the quick absorption of iron. Ferrous ascorbate supports healthy haemoglobin levels and boosts overall energy and vitality\nIt is essential for DNA synthesis and cell division. One of the essential pregnancy supplements, folic acid supports foetal neural tube development. It may help manage the risk of certain birth defects and support healthy red blood cell formation. Folic acid may help manage folate deficiency anaemia and support the overall brain and nervous system health. While nutritional supplements can help, it is essential to consume iron-rich foods to prevent nutritional deficiencies.",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "\nConstipation\n Diarrhea\n Stomach Cramps\n Allergic Reaction",
     howToUse:
-      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
+      "Dosage: As directed by the physician\nAppropriate overages of vitamins are added to compensate for the probable loss on storage",
   },
   {
     id: 4,
     img: Pic4,
-    title: "Omnigel Pain Relief",
+    title: "Ondansetron Injection",
     descirption:
-      "Omnigel Pain Relief from Sprain, Injury, Back Pain, Muscle Pain, Body Pain, Knee Pain, Joint Pain",
+      "Ondansetron is an antiemetic medication. It works by blocking the action of a chemical messenger (serotonin) in the brain that may cause nausea and vomiting during anti-cancer treatment (chemotherapy) or after surgery. ",
     content:
-      "Provides relief from pain.\nReduces swelling and inflammation.\nHas anti-inflammatory properties",
+      "Ondansetron is an antiemetic medication. It works by blocking the action of a chemical messenger (serotonin) in the brain that may cause nausea and vomiting during anti-cancer treatment (chemotherapy) or after surgery.Ondansetron is a selective 5-HT3 receptor antagonist. It is prescribed for the prevention and treatment of nausea and vomiting which is commonly observed after surgery or due to cancer chemotherapy.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      " Prevent nausea\n Vomiting caused by cancer chemotherapy\n Radiation therapy\n Surgery",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "Constipation, Headache, Flushing (sense of warmth in the face, ears, neck and trunk), Injection site reactions (pain, swelling, redness)",
     howToUse:
-      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
+      "Ondansetron should be taken with a full glass of water, with or without food. It should be used exactly as per the dose and duration advised by the doctor. Usually, the first dose of Ondansetron is taken before the start of your surgery, chemotherapy or radiation treatment.",
   },
   {
     id: 5,
     img: Pic5,
-    title: "Combo Pack",
+    title: "Ondanestron Oral Solution I.P.",
     descirption:
-      "Combo Pack of Tata 1mg Pain Relief Spray (100gm) & Tata 1mg Medicated First Aid Dressing - Washproof, Bandages (20)",
+      "Ondansetron is commonly used to prevent nausea and vomiting that can happen when using medicines for cancer, radiation therapy, anesthesia, and after some types of surgeries.",
     content:
-      "Size: 70mm X 19mm\nAdvanced protection for cuts and scrapes\nAntiseptic protection\nLong-lasting hold\nTransparent in colour to match your skin \nEach wash-proof medicated pad contains benzalkonium chloride solution I.P. equivalent to benzalkonium chloride 0.5% w/w",
+      "Ondansetron may also be used for other conditions as determined by your healthcare provider.\nOndansetron blocks a specific receptor in the gut (intestines) and brain called 5-HT3 that normally causes nausea and vomiting when your body is exposed to certain substances, such as chemotherapy or anesthesia, or after surgery (especially on gut) or radiation treatment. By blocking this receptor, ondansetron reduces nausea and vomiting caused by chemotherapy, surgery/anesthesia, or radiation.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      "Ondansetron is commonly used to prevent Nausea and vomiting \nThat can happen when using medicines for cancer, radiation therapy, anesthesia, and after some types of surgeries.",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "The most common side effects of ondansetron are listed below. Tell your healthcare provider if you have any of these side effects that bother you.\n Headache\n Triedness \n Constipation/diarrhea",
     howToUse:
-      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
+      "Liquid that is injected into a blood vessel, liquid or tablet that is swallowed, tablet that dissolves in the mouth",
   },
   {
     id: 6,
     img: Pic6,
-    title: "Easylax L",
-    descirption: "Easylax L Oral Solution Lemon Sugar Free",
+    title: "Rap-DSR Tablets",
+    descirption:
+      "Rap 5mg Tablet is widely used to treat high blood pressure and heart failure and may even be prescribed after a heart attack. It also lowers the chances of having a heart attack or stroke.",
     content:
-      "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",
+      "Rap 5mg Tablet is widely used to treat high blood pressure and heart failure and may even be prescribed after a heart attack. It also lowers the chances of having a heart attack or stroke.\nRap 5mg Tablet may be prescribed either alone or in combination with other medicines. It can be taken on an empty stomach or with a meal. This medicine should preferably be taken at the same time each day to get the maximum benefit. It is important to continue taking it regularly even if you feel well or even if your blood pressure is controlled.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      "Treatment of Hypertension (high blood pressure)\nPrevention of heart attack and stroke\nTreatment of Heart failure",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them \nDry Cough \nHeadache \nFatigue",
     howToUse:
       "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
   },
   {
     id: 7,
     img: Pic7,
-    title: "Easylax LA",
-    descirption: "Easylax L Oral Solution Lemon Sugar Free",
+    title: "Diclofenac Sodium Injection",
+    descirption:
+      "Diclofenac Sodium Injection is a pain-relieving medicine. It is used to treat pain, swelling, stiffness, and joint pain in conditions like rheumatoid arthritis, osteoarthritis, and acute musculoskeletal injuries. It is given in cases where oral administration is not possible.",
     content:
-      "Easylax L helps in providing long-term relief from long-term constipation\nActs as a laxative to ease bowel movement",
+      "Diclofenac Sodium Injection is a pain-relieving medicine. It is used to treat pain, swelling, stiffness, and joint pain in conditions like rheumatoid arthritis, osteoarthritis, and acute musculoskeletal injuries. It is given in cases where oral administration is not possible.\nDiclofenac Sodium Injection is administered as an injection by a healthcare professional. Kindly do not self administer. Inform your doctor if you have any history of heart disease or stroke. Please consult your doctor in case any injection site reactions like pain, swelling, or redness are observed.",
     benefits:
-      "Respiratory tract infections are those infections that can affect the sinuses, throat, airways or lungs. I Pot CV Dry Syrup contains two different medicines, Cefpodoxime Proxetil and Clavulanic Acid, that work together to kill the bacteria that cause respiratory tract infections. Cefpodoxime Proxetil works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Cefpodoxime Proxetil against bacteria.",
+      "Diclofenac Sodium Injection belongs to a group of medicines called nonsteroidal anti-inflammatory drugs (NSAIDs). It is used for short-term relief of pain, inflammation, and swelling in conditions that affect joints and muscles. It works by blocking chemical messengers in the brain that tell us we have pain. It can help relieve pain in conditions like rheumatoid arthritis and osteoarthritis.\nTake it as it is prescribed to get the most benefit. Do not take more or longer than needed as that can be dangerous. In general, you should take the lowest dose that works, for the shortest possible time. This will help you to go about your daily activities more easily and have a better, more active, quality of life.",
     sideEffects:
-      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Diarrhea \n Headache\n Rash\n Abdominal pain\n Vaginal infection\n Fungal infection of vagina",
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them\n Nausea\n Injection site reactions (pain, swelling, redness) \n Headache\n Edema (swelling)\n Dizziness\n Flatulence\n Vomiting",
     howToUse:
-      "Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. MC Plus 100mg/325mg Tablet may be taken with or without food, but it is better to take it at a fixed time.",
+      "Your doctor or nurse will give you this medicine. Kindly do not self administer.",
   },
 ];

@@ -63,7 +63,8 @@
   margin-top: 3rem;
 }
 
-.other-card-body {
+.other-card-body a{
+  text-decoration: none;
   color: black; /* Adjust to desired text color */
 }
 /* Optionally, you can specifically style the card-body if needed */
@@ -78,6 +79,7 @@
 
 .card-title,
 .card-text {
+  text-decoration:none;
   color: black; /* Ensure text color is inherited from the parent */
 }
 
@@ -175,6 +177,7 @@
   /* transform: translateY(-5px); */
   opacity: 0.9;
 }
+
 
 @keyframes scroll {
   0% {
